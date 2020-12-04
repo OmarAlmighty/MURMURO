@@ -50,9 +50,6 @@ The organization of this document is as follows:
     • Deaf: A person who is not capable of hearing and speaking.
     • Avatar: An animated character that will be used to interact with deaf.
 
-# Document Conventions
-This document follows the IEEE formatting requirements. Use Arial font size 11, or 12 throughout the document for text. Use italics for comments. Document text should be single spaced and maintain the 1” margins found in this template. For Section and Subsection titles, we use bold Arial font.
-
 # Product Perspective
 The target product is a development of previous related products for the same problem. Other sign language translator applications only translate text character by character to its analogous hand gesture and motion. Other products translate text by displaying for deaf person a sequence of images or short video clip. Other available products are only translation from text/speech to sign language and do not the reverse. Most of these products require a hard-coding for translating from one language to another. One of available products uses gloves which attempt to convert the motions of a sign language into written or spoken words, but this is unpractical.
 
@@ -104,9 +101,6 @@ The avatar will be based on animated motions for each alphabet and word. The tra
 
 # User Documentation
 A full documentation of the translator model will be provided through the web site that hosts model. The site will also have a description of the chat and live translation application. 
-#  Assumptions and Dependencies
-The dataset that will be used to train translation model is from Kaggle named “ASL alphabet” and American Sign Language Lexicon Video Dataset (ASLLVD) which is used to train model on each single word.
-
 
 # User Interfaces
 The user interface is simple as any popular chat application found in the market with a side menu for other functionalities. The difference is in what the product will contain, as noted earlier, the application will consider some deaf people cannot read/write so the application will heavily depend on icons and images. In addition, the application must at the deaf person interface, a major part of the screen is provided for avatar that will model the messages received from other side.
@@ -127,7 +121,26 @@ The following two figures help you to visualize the interface of the application
 # Package Diagram
 ![Package Diagram](packagedigram.PNG)
 
+# Sequence Diagram 
+![Sequence Diagram](Sequnce%20diagram.png)
 
+# Context Diagram
+![Context Diagram](context%20diagram.PNG)
 
+# Login screen
+![Login screen](sht1.PNG)
 
+# Sign up process
+![sign up process](sht2.PNG)
 
+# Friends list
+![chat and friends list](sht3.PNG)
+
+# Translating English voice and text into signs
+![translating English voice and text into signs](sht4.PNG)
+
+# Chat screen
+![chat screen](sht5.PNG)
+
+# Firebase tree
+![Firebase tree](sht6.PNG)
