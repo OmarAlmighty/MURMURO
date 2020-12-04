@@ -1,7 +1,7 @@
 # Murmuro
 Deaf People chat app
 
-![Documentation](murmuro_report.pdf)
+Avatar >> [https://github.com/OmarAlmighty/ASL-Renderd-Vocabulary]
 
 # Introduction
  This is software requirements specification document for American Sign Language (ASL) translator project.
